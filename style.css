@@ -1,0 +1,122 @@
+body {
+    margin: 0 auto;
+    padding: 20px;
+    background-color: MintCream;
+    font-family: Arial;
+}
+main {
+    max-width: 960px;
+    margin: 20px auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+#name{
+    position:relative;
+    left: 300px;
+    color: rgb(0, 0, 0);
+
+}
+.header{
+    padding: 20px;
+}
+
+header {
+    width: 100%;
+    background-color: #7c7c7c;
+    padding: 10px;
+    height: 120px;
+}
+
+header img {
+    float: left;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+}
+header h1{
+    margin-left: 20%;
+    padding-top: 20px;
+}
+.links {
+    background-color: LightGray;
+    padding: 10px;
+}
+main ul {
+    list-style: none;
+    padding: 0;
+}
+main ul li {
+    margin-bottom: 10px;
+}
+main table {
+    width: 100%;
+    border-collapse: separate;
+    margin-top: 10px;
+    color: #0c0c0c;
+    border-color: #0c0c0c;
+}
+main th, main td {
+    border: 1px solid LightGray;
+    padding: 8px;
+}
+.chet{
+    background-color: LightGray;
+}
+.nechet{
+    background-color: DarkGray;
+}
+main tbody tr:nth-child(odd) {
+    background-color: LightGray;
+}
+footer {
+    text-align: center;
+    background-color: #7c7c7c;
+}
+footer p {
+    padding: 30px 10px 10px 10px;
+    text-align: left;
+}
+form {
+    background-color: LightGray;
+    padding: 15px;
+}
+form input[type="text"], 
+form input[type="tel"], 
+form input[type="email"], 
+form textarea, 
+form select {
+    width: 90%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+form input[type="submit"] {
+    padding: 10px;
+}
+#img{
+    position: relative;
+    bottom: 10px;
+}
+@media (min-width: 1020px) {
+    .header{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    header {
+        width: 100%;
+        order: 2;
+    }
+    
+    .form{
+        order: 2;
+    }
+    .table {
+        order: 1;
+    }
+
+}
+#link{
+    color: #0c0c0c;
+}
